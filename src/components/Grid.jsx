@@ -58,7 +58,6 @@ export default function Grid() {
             ? false
             : !completedWorkouts.includes(`${workoutIndex - 1}`);
 
-        console.log(workoutIndex, isLocked);
 
         const type =
           workoutIndex % 3 === 0
