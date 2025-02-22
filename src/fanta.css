@@ -63,6 +63,15 @@
     --text-selection: '';
 }
 
+body.light {
+    --background-primary: white;
+    --color-primary: #030615;
+}
+
+body.dark {
+    --background-primary: #05070f;
+    --color-primary: white;
+}
 
 @media (prefers-color-scheme: dark) {
     :root {
