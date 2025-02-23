@@ -1,7 +1,9 @@
-import React, { createContext, useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
+import { ThemeContext } from '../utils/themeContext';
 
-export const ThemeContext = createContext();
+// export const ThemeContext = createContext();
 
+// eslint-disable-next-line react/prop-types
 export const ThemeProvider = ({ children }) => {
   const [theme, setTheme] = useState('light');
 
