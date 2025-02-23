@@ -12,7 +12,7 @@ export default function Layout(props) {
 
   const footer = (
     <footer>
-      <p>Build by <a href="https://macissd.netlify.app" target="_blank" >DVMacisso</a> <br />Styled with <a href="https://www.fantacss.smoljames.com" target="_blank" >FantaCSS</a> </p>
+      <p>Built by <a href="https://macissd.netlify.app" target="_blank" >DVMacisso</a> <br />Styled with <a href="https://www.fantacss.smoljames.com" target="_blank" >FantaCSS</a> </p>
     </footer>
 
   )
