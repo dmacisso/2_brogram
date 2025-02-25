@@ -6,7 +6,8 @@ Using React.js to build a Workout Planner that lets users follow a prescribed wo
 
 1. Full CRUD functionality (Create, Read, Update, Delete)
 2. Smooth UI with FantaCSS
-3. Hosted & deployed online
+3. Fully responsive to screen size
+4. Hosted & deployed online
 
 [Workout Brogram](https://dvm-workout.netlify.app/)
 
