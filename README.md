@@ -1,5 +1,7 @@
 
-## Brogram - A Workout Planner (React.js & FantaCSS)
+## Brogram - A Workout Planner (React.js & FantaCSS) ***
+
+
 Using React.js to build a Workout Planner that lets users follow a prescribed workout and track their progress. This will level up my skills in React components, state management, and hooks.
 
 1. Full CRUD functionality (Create, Read, Update, Delete)
@@ -8,11 +10,14 @@ Using React.js to build a Workout Planner that lets users follow a prescribed wo
 
 [Workout Brogram](https://dvm-workout.netlify.app/)
 
+*** Initially constructed following Smoljames' Youtube tutorial.
+https://www.youtube.com/watch?v=dKch_WrYwd4&t=2s
+
 ## Modifications to enhance the original 
 1.  Added a dark/light theme toggle, fixed to upper right of view port.
-2.  Ideas for modification to follow:
-    1.  Convert to a mobile app, using React Native or Flutter
-    2.  ...
+2.  Ideas for future modifications are as follows:
+    1.  Employ a SQL (or non SQL) database, rather than local storage.
+    2.  Convert to a mobile app, using React Native or Flutter.
 
 # React + Vite
 
@@ -31,6 +36,8 @@ https://github.com/jamezmca/fantacss/blob/main/fanta.css
 
 place the file here:-->  /src/fanta.css
 
-In App.css
 
-    import './'fanta.css'
+And import it into main.jsx as such:
+    
+    import './index.css';
+    import './fanta.css';
